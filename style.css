@@ -114,6 +114,21 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation: halfanimation 1s infinite;
+}
+
+@keyframes halfanimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
 }
 
 .ex-12-button,
